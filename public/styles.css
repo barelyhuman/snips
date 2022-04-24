@@ -37,8 +37,8 @@ body {
 
 main {
 	max-width: 80ch;
-	padding:1rem;
-	padding-left:100px;
+	padding: 1rem;
+	padding-left: 100px;
 }
 
 a {
@@ -124,7 +124,6 @@ header > a {
 }
 
 .shiki {
-	background: var(--base) !important;
 	padding: 2rem;
 	tab-size: 4;
 	border-radius: 10px;
@@ -142,8 +141,8 @@ header > a {
 	}
 }
 
-@media screen and (max-width:767px) {
-	main{
-		padding-left:1rem;
+@media screen and (max-width: 767px) {
+	main {
+		padding-left: 1rem;
 	}
 }
