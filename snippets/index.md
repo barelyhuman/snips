@@ -1,4 +1,6 @@
-Code Storage
+### Snips
+
+**Code Storage**
 
 - [Availability Ranges](/availability-ranges)
 - [CSS Loader](/css-loader)

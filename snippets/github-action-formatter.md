@@ -16,7 +16,7 @@ jobs:
           ref: ${{ github.head_ref }}
       - uses: actions/setup-node@v1
         with:
-          node-version: '12.x'
+          node-version: "12.x"
       - name: Format
         run: |
           npm i
@@ -24,6 +24,10 @@ jobs:
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4.1.2
         with:
-          commit_message: ':robot: Formatted!'
+          commit_message: ":robot: Formatted!"
           branch: ${{ github.head_ref }}
 ```
+
+[&larr; Back](/)
+
+2022 &copy; [reaper](https://reaper.im)

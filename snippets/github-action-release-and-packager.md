@@ -6,7 +6,7 @@ name: Development Build
 on:
   push:
     tags:
-      - '*-dev.*'
+      - "*-dev.*"
 
 jobs:
   build:
@@ -29,8 +29,12 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: 'packages/*'
+          files: "packages/*"
           prerelease: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
+
+[&larr; Back](/)
+
+2022 &copy; [reaper](https://reaper.im)
