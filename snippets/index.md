@@ -18,5 +18,6 @@
 - [React | Spacer](/react-component-spacer)
 - [React Native | Bash | Version Sync](/react-native-bash-script-version-sync)
 - [Nim | Cross Compile Script (Docker)](/nim-cross-compile)
+- [URQL | Fetch Options Exchange](/nim-cross-compile)
 
 2022 &copy; [reaper](https://reaper.im)
