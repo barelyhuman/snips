@@ -17,6 +17,7 @@
 - [React | Padding](/react-component-padding)
 - [React | Spacer](/react-component-spacer)
 - [React Native | Bash | Version Sync](/react-native-bash-script-version-sync)
+- [React Native | Multiple GoogleService-Info plist file](/multiple-google-service-files)
 - [Nim | Cross Compile Script (Docker)](/nim-cross-compile)
 - [URQL | Fetch Options Exchange](/nim-cross-compile)
 
