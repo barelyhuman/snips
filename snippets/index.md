@@ -10,7 +10,7 @@
 - [JS | CSV Writer](/javascript-csv-writer)
 - [JS | Decode HTML](/javascript-decode-html)
 - [JS | Unique Array](/javascript-unique-array-using-sets)
-- [JS | Unique Array](/javascript-unique-array-using-sets)
+- [JS | In Memory Cache for Network Data](/javascript-sdk-image-cache)
 - [React | Button](/react-component-button)
 - [React | Card](/react-component-card)
 - [React | Input](/react-component-input)
