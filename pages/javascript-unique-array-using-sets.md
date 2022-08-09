@@ -10,7 +10,3 @@ sourceArray.reduce((acc, item) => {
   return acc;
 }, new Set());
 ```
-
-[&larr; Back](/)
-
-2022 &copy; [reaper](https://reaper.im)

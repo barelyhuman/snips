@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
+    runs-on: {{`${{ matrix.os }}`}}
     strategy:
       matrix:
         os: [ubuntu-latest]
@@ -32,9 +32,5 @@ jobs:
           files: "packages/*"
           prerelease: true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: {{`${{ secrets.GITHUB_TOKEN }}`}}
 ```
-
-[&larr; Back](/)
-
-2022 &copy; [reaper](https://reaper.im)

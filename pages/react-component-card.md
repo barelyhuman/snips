@@ -22,6 +22,3 @@ export default ({ children, className, ...props }) => {
 };
 ```
 
-[&larr; Back](/)
-
-2022 &copy; [reaper](https://reaper.im)

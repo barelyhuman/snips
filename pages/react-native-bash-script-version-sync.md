@@ -27,6 +27,3 @@ fi
 
 ```
 
-[&larr; Back](/)
-
-2022 &copy; [reaper](https://reaper.im)

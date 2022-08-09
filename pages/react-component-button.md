@@ -1,14 +1,14 @@
-### React Component | Input
+### React Component | Button
 
 ```jsx
-const Input = ({ children, ...props }) => {
+export default ({ children, ...props }) => {
   return (
     <>
-      <input {...props} />
+      <button {...props}>{children}</button>
       <style jsx>{`
-        input {
-          background: #fff;
-          color: #000;
+        button {
+          background: #000;
+          color: #fff;
           border: 2px solid rgba(12, 12, 13, 0.1);
           border-radius: 4px;
           height: 32px;
@@ -19,10 +19,11 @@ const Input = ({ children, ...props }) => {
           transition: all 0.2s ease;
         }
 
-        input:hover,
-        input:focus {
+        button:hover {
           border-color: #000;
           outline: #000;
+          color: #000;
+          background: #fff;
         }
       `}</style>
     </>
@@ -30,6 +31,3 @@ const Input = ({ children, ...props }) => {
 };
 ```
 
-[&larr; Back](/)
-
-2022 &copy; [reaper](https://reaper.im)

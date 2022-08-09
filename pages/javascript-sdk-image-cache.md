@@ -32,5 +32,4 @@ export async function fetchImagesFromCache(ids) {
 
   return mapToObj(cache);
 }
-
 ```

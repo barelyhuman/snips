@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: ${{ github.head_ref }}
+          ref: {{`${{ github.head_ref }}`}}
       - uses: actions/setup-node@v1
         with:
           node-version: "12.x"
@@ -25,9 +25,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4.1.2
         with:
           commit_message: ":robot: Formatted!"
-          branch: ${{ github.head_ref }}
+          branch: {{`${{ github.head_ref }}`}}
 ```
-
-[&larr; Back](/)
-
-2022 &copy; [reaper](https://reaper.im)

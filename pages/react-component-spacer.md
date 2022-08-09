@@ -21,7 +21,3 @@ export default function Spacer(props) {
   return <div style={style}>{props.children}</div>;
 }
 ```
-
-[&larr; Back](/)
-
-2022 &copy; [reaper](https://reaper.im)

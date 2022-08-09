@@ -31,7 +31,3 @@ export default ({ children, x, y, all, ...props }) => {
   );
 };
 ```
-
-[&larr; Back](/)
-
-2022 &copy; [reaper](https://reaper.im)
