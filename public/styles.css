@@ -26,6 +26,9 @@
   --subtle: var(--zinc-400);
   --muted: var(--zinc-300);
 
+  --code-background: var(--zinc-50);
+  --on-code-background: var(--zinc-900);
+
   --font-sans: "Inter", sans-serif;
   --font-mono: "Hack", monospace;
 }
@@ -88,20 +91,18 @@ small,
 
 pre,
 code {
+  background: var(--code-background) !important;
   font-family: var(--font-mono);
+  color: var(--on-code-background);
 }
 
 code {
-  background: var(--surface);
   padding: 2px;
   border-radius: 4px;
 }
 
 pre {
   white-space: pre-wrap;
-}
-
-pre > .hljs {
   border-radius: 6px;
   padding: 1rem !important;
 }
@@ -133,5 +134,8 @@ li {
     --text: var(--zinc-100);
     --subtle: var(--zinc-400);
     --muted: var(--zinc-500);
+
+    --code-background: var(--zinc-900);
+  --on-code-background: var(--zinc-50);
   }
 }
