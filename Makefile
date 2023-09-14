@@ -1,10 +1,13 @@
+alvu=./bin/alvu
+
 setup:
-	curl -sf https://goblin.barelyhuman.xyz/codeberg.org/reaper/alvu | sh
+	mkdir -p bin
+	curl -sf https://goblin.run/github.com/barelyhuman/alvu | PREFIX=./bin sh
 
 build:  
-	alvu -highlight -highlight-theme=xcode-dark
+	$(alvu) -highlight -highlight-theme=xcode-dark
 
 watch:
-	ls ./**/* | entr bash -c 'alvu -highlight -highlight-theme=xcode-dark -serve'
+	$(alvu) -highlight -highlight-theme=xcode-dark -serve
 
 w: watch
